@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito/Nunito-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-Medium.ttf");
+}
+
+body {
+  /* font-family: "Poppins", sans-serif; */
+}
+
+.ic-logo {
+  padding-right: 8px;
+}
+
+.navbar-resto {
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 16px;
+}
+
+.navbar-resto .navbar-brand {
+  font-family: "Nunito";
+  font-size: 28px;
+}
+
+.navbar-resto .navbar-nav .active {
+  color: #5a4fcf;
+  text-decoration: underline;
+}
+
+.btn-secondary {
+  color: #5a4fcf;
+  background-color: #5a4fcf20;
+  outline: none;
+  border: none;
+}
+
+.btn-secondary:hover {
+  color: white;
+  background-color: #5a4fcf;
+}

@@ -7,13 +7,14 @@
 
     <link rel="stylesheet" href="assets/css/bootstrap.css" />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <script src="assets/js/"></script>
+    <link rel="stylesheet" href="assets/css/main.css">
     <title>Resto BWA</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-light navbar-resto">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <img class="ic-logo" src="assets/icons/Home.svg">
+        <a class="navbar-brand" href="#">Resto</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -30,9 +31,6 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -41,30 +39,29 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Dropdown
+                Category
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
-            </li>
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
           </ul>
           <form class="d-flex" role="search">
             <input
               class="form-control me-2"
               type="search"
-              placeholder="Search"
+              placeholder="Search your favorite food"
               aria-label="Search"
             />
-            <button class="btn btn-outline-success" type="submit">
-              Search
+            <button class="btn btn-secondary" type="submit">
+              Login
             </button>
           </form>
         </div>
